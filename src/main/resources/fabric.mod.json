@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "dopehack",
+  "version": "${version}",
+  "name": "dope",
+  "description": "Dopest meteor client paste.",
+  "authors": [],
+  "contact": {},
+  "license": "unlicense",
+  "icon": "assets/dopehack/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.smokedope2016.dopehack"
+    ],
+    "main": [
+      "me.smokedope2016.dopehack"
+    ]
+  },
+  "mixins": [
+    "dopehack.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
