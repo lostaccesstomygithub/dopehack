@@ -11,10 +11,10 @@
   "environment": "client",
   "entrypoints": {
     "client": [
-      "me.smokedope2016.dopehack"
+      "me.smokedope2016.dopehack.DopeHack"
     ],
     "main": [
-      "me.smokedope2016.dopehack"
+      "me.smokedope2016.dopehack.DopeHack"
     ]
   },
   "mixins": [

@@ -1,10 +1,11 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "me.smokedope2016.mixin",
+  "package": "me.smokedope2016.dopehack.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "TickMixin"
+    "ClientConnectionMixin",
+    "PlayerMoveC2SPacketAccessor"
   ],
   "client": [
   ],
